@@ -15,7 +15,8 @@ db.connect()
 
 
 //rotas
-app.use(artistRoutes)
+app.use("/artists", artistRoutes)
+
 
 
 module.exports = app
